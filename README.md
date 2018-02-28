@@ -8,7 +8,7 @@ settings, and is suitable for force-installing via Chrome Enterprise management.
 ## Why?
 
 WebUSB provides access to devices that may not be designed with an adversarial
-threat model in mind, protected only by a permissions dialog that does not makes
+threat model in mind, protected only by a permissions dialog that does not make
 the risks clear.
 
 Given the lack of widely-deployed uses of WebUSB, disabling it is a prudent
