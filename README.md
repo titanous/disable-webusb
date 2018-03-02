@@ -13,3 +13,5 @@ the risks clear.
 
 Given the lack of widely-deployed uses of WebUSB, disabling it is a prudent
 defense-in-depth measure.
+
+_You may also be interested in [disabling WebBluetooth](https://github.com/titanous/disable-webbluetooth)._
