@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Disable WebUSB",
   "description": "Disables the WebUSB API for all websites.",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "content_scripts": [{
     "matches": ["https://*/*", "http://*/*"],
     "run_at": "document_start",
