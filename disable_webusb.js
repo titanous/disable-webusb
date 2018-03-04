@@ -3,7 +3,7 @@ script.text = `
 if (navigator.usb) {
   delete navigator.usb.__proto__.getDevices;
   delete navigator.usb.__proto__.requestDevice;
-  navigator.__defineGetter__("usb", () => undefined);
+  delete navigator.__proto__.usb;
 }
 `;
 document.documentElement.appendChild(script);
